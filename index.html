@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EL NABIL — Parfums &amp; Fragrances</title>
+  <meta name="description" content="EL NABIL, parfums et fragrances. Découvrez la collection et passez votre commande simplement par WhatsApp.">
+  <meta name="theme-color" content="#16110D">
+
+  <!-- Open Graph (remplacez l'URL par l'adresse réelle du site une fois en ligne) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="EL NABIL — Parfums & Fragrances">
+  <meta property="og:description" content="Découvrez la collection EL NABIL et commandez directement par WhatsApp.">
+  <meta property="og:image" content="EL_MABROCK_2.png">
+  <meta property="og:locale" content="fr_DZ">
+
+  <script>document.documentElement.classList.add('js');</script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#collection">Aller à la collection</a>
+
+  <!-- 1. NAVBAR -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="EL NABIL — Accueil">
+        <span class="brand-logo"><img src="logo.png" alt="EL NABIL — Luxury for everyone"></span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Navigation principale">
+        <a href="#top">Accueil</a>
+        <a href="#collection">Collection</a>
+        <a href="#about">À propos</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn cart-btn" id="openCart" type="button" aria-label="Ouvrir le panier">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8h14l-1.2 11.2a1 1 0 0 1-1 .8H7.2a1 1 0 0 1-1-.8L5 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+          <span class="cart-count" id="cartCount" hidden>0</span>
+        </button>
+        <button class="icon-btn menu-btn" id="menuToggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mainNav">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 2. HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="hero-kicker">Luxury for everyone</p>
+          <h1 id="hero-title">Découvrez votre parfum signature</h1>
+          <p class="hero-text">Une collection de fragrances EL NABIL à découvrir, choisir et commander en quelques messages sur WhatsApp.</p>
+          <div class="hero-buttons">
+            <a href="#collection" class="btn btn--gold">Découvrir la collection</a>
+            <a href="https://wa.me/213555422894?text=Bonjour%20EL%20NABIL%2C%20je%20souhaite%20des%20informations%20sur%20vos%20parfums." target="_blank" rel="noopener noreferrer" class="btn btn--outline-light js-wa-link">Commander sur WhatsApp</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="arch">
+            <img src="EL_MABROCK_2.png" alt="Parfum EL NABIL El Mabrock entouré de roses, d'ambre et de safran" width="960" height="1280" fetchpriority="high">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. COLLECTION -->
+    <section class="section collection" id="collection" aria-labelledby="collection-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 id="collection-title">La collection</h2>
+          <p>Choisissez votre fragrance, ajoutez-la au panier et envoyez votre commande par WhatsApp.</p>
+        </div>
+        <div class="product-grid" id="productGrid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- 7. ABOUT -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="about-media reveal">
+          <img src="ROYAL_GOLD_1.png" alt="Flacon Royal Gold EL NABIL, verre noir et collerette dorée, parmi des fleurs blanches et de l'ambre" loading="lazy">
+        </div>
+        <div class="about-copy reveal">
+          <h2 id="about-title">L'élégance, portée comme une signature</h2>
+          <p>EL NABIL est une maison de parfums pensée autour d'une idée simple : le luxe doit pouvoir s'adresser à tous.</p>
+          <p>Chaque flacon est conçu pour accompagner une identité personnelle, avec le soin du détail, la qualité et la sophistication qu'on attend d'une fragrance de caractère.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. WHY -->
+    <section class="section why" aria-labelledby="why-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 id="why-title">Pourquoi EL NABIL</h2>
+        </div>
+        <div class="why-grid">
+          <div class="why-item reveal">
+            <h3>Des parfums raffinés</h3>
+            <p>Une collection de fragrances à l'identité marquée, du musc frais à l'ambre doré.</p>
+          </div>
+          <div class="why-item reveal">
+            <h3>Une présentation soignée</h3>
+            <p>Des flacons travaillés, pensés pour être autant admirés que portés.</p>
+          </div>
+          <div class="why-item reveal">
+            <h3>Commande par WhatsApp</h3>
+            <p>Pas de paiement en ligne : vous envoyez votre commande, nous la confirmons avec vous.</p>
+          </div>
+          <div class="why-item reveal">
+            <h3>Livraison à votre adresse</h3>
+            <p>Indiquez votre wilaya et votre adresse, nous vous confirmons les modalités par message.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. CONTACT -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-inner reveal">
+        <h2 id="contact-title">Une question, une commande ?</h2>
+        <p>Écrivez-nous sur WhatsApp, nous vous répondons avec plaisir.</p>
+        <a href="https://wa.me/213555422894?text=Bonjour%20EL%20NABIL%2C%20je%20souhaite%20des%20informations%20sur%20vos%20parfums." target="_blank" rel="noopener noreferrer" class="btn btn--gold btn--lg js-wa-link">Commander sur WhatsApp</a>
+        
+      </div>
+    </section>
+  </main>
+
+  <!-- 10. FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-logo brand-logo--light"><img src="logo.png" alt="EL NABIL"></span>
+        <p>Parfums &amp; fragrances. Luxury for everyone.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Navigation du pied de page">
+        <a href="#top">Accueil</a>
+        <a href="#collection">Collection</a>
+        <a href="#about">À propos</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <ul class="footer-social" id="footerLinks"></ul>
+    </div>
+    <div class="container footer-copy">
+      <small>© <span id="year"></span> EL NABIL. Tous droits réservés.</small>
+    </div>
+  </footer>
+
+  <!-- 4. PRODUCT DETAILS -->
+  <dialog class="product-modal" id="productModal" aria-labelledby="pmName">
+    <button class="modal-close" type="button" id="closeModal" aria-label="Fermer">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <div class="pm-grid">
+      <div class="pm-gallery">
+        <div class="pm-main"><img id="pmImage" src="" alt=""></div>
+        <div class="pm-thumbs" id="pmThumbs"></div>
+      </div>
+      <div class="pm-info">
+        <h2 id="pmName"></h2>
+        <p class="pm-price" id="pmPrice"></p>
+        <p class="pm-size" id="pmSize" hidden></p>
+        <p class="pm-desc" id="pmDesc"></p>
+        <div class="pm-notes" id="pmNotes" hidden>
+          <h3>Notes visibles sur le visuel</h3>
+          <ul id="pmNotesList"></ul>
+        </div>
+        <div class="pm-buy">
+          <div class="qty" role="group" aria-label="Quantité">
+            <button type="button" id="pmMinus" aria-label="Diminuer la quantité">−</button>
+            <output id="pmQty" aria-live="polite">1</output>
+            <button type="button" id="pmPlus" aria-label="Augmenter la quantité">+</button>
+          </div>
+          <button type="button" class="btn btn--dark" id="pmAdd">Ajouter au panier</button>
+        </div>
+        <button type="button" class="btn btn--gold btn--block" id="pmOrder">Commander sur WhatsApp</button>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- 5 + 6. CART & CHECKOUT -->
+  <div class="backdrop" id="backdrop" hidden></div>
+  <aside class="drawer" id="cartDrawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle" aria-hidden="true">
+    <header class="drawer-head">
+      <h2 id="drawerTitle">Votre panier</h2>
+      <button class="icon-btn" type="button" id="closeCart" aria-label="Fermer le panier">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </header>
+
+    <section class="drawer-view" id="viewCart">
+      <div class="drawer-body">
+        <ul class="cart-list" id="cartList"></ul>
+        <div class="cart-empty" id="cartEmpty" hidden>
+          <p>Votre panier est vide.</p>
+          <button type="button" class="btn btn--dark" data-close-cart>Voir la collection</button>
+        </div>
+      </div>
+      <footer class="drawer-foot" id="cartFoot">
+        <div class="subtotal"><span>Sous-total</span><strong id="cartSubtotal">0 DA</strong></div>
+        <p class="foot-note" id="cartNote" hidden></p>
+        <button type="button" class="btn btn--gold btn--block" id="goCheckout">Passer la commande</button>
+        <div class="foot-links">
+          <button type="button" class="link-btn" data-close-cart>Continuer mes achats</button>
+          <button type="button" class="link-btn" id="clearCart">Vider le panier</button>
+        </div>
+      </footer>
+    </section>
+
+    <section class="drawer-view" id="viewCheckout" hidden>
+      <form class="drawer-body checkout-form" id="checkoutForm" novalidate>
+        <button type="button" class="link-btn back-btn" id="backToCart">← Retour au panier</button>
+
+        <div class="recap" id="recap"></div>
+
+        <div class="field">
+          <label for="fName">Nom complet</label>
+          <input id="fName" name="name" type="text" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="fPhone">Téléphone</label>
+          <input id="fPhone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="05 50 00 00 00" required>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="fWilaya">Wilaya</label>
+            <select id="fWilaya" name="wilaya" required></select>
+          </div>
+          <div class="field">
+            <label for="fCity">Ville</label>
+            <input id="fCity" name="city" type="text" autocomplete="address-level2" required>
+          </div>
+        </div>
+        <div class="field">
+          <label for="fAddress">Adresse complète</label>
+          <textarea id="fAddress" name="address" rows="2" autocomplete="street-address" required></textarea>
+        </div>
+        <div class="field">
+          <label for="fNote">Note (facultatif)</label>
+          <textarea id="fNote" name="note" rows="2"></textarea>
+        </div>
+
+        <p class="form-error" id="formError" role="alert" hidden></p>
+        <button type="submit" class="btn btn--gold btn--block">Envoyer la commande sur WhatsApp</button>
+        <p class="foot-note">Aucun paiement en ligne. Votre commande s'ouvre dans WhatsApp, vous n'avez plus qu'à l'envoyer.</p>
+      </form>
+    </section>
+  </aside>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+EL NABIL — fichiers corrigés
+
+1) Gardez index.html, style.css et script.js dans le même dossier.
+2) Placez également toutes les images dans ce même dossier (pas dans un sous-dossier images/).
+   Noms attendus par le code :
+   - logo.png
+   - EL_MABROCK_1.png, EL_MABROCK_2.png
+   - ROYAL_GOLD_1.png, ROYAL_GOLD_2.png
+   - MEDANIA_1.png, MEDANIA_2.png
+   - MUSC_AZUR_1.png, MUSC_AZUR_2.png
+   - MUSC_LOVE_1.png, MUSC_LOVE_2.png
+
+   Les noms doivent être exactement identiques (majuscules/minuscules et extension incluses).
+   Les fichiers images n'étaient pas présents dans les pièces jointes examinées; il faut donc les copier
+   depuis votre ordinateur. Si vos images sont en .jpg ou portent d'autres noms, adaptez les chemins
+   dans index.html et la liste `images` de script.js à leurs vrais noms.
+
+3) Dans script.js, vérifiez WHATSAPP_NUMBER. Remplacez 213555422894 par le numéro WhatsApp réel
+   au format international, chiffres seulement, sans +, espace ni tiret. Exemple de format algérien :
+   213XXXXXXXXX (remplacez les X par votre numéro réel).
+   Les liens HTML ont un lien de secours vers le numéro actuellement configuré; si vous changez le
+   numéro, script.js le remplacera quand JavaScript fonctionne.
+
+4) Ouvrez index.html dans le navigateur et cliquez sur « Commander sur WhatsApp ».
+   Le navigateur doit avoir accès à Internet. Le lien ouvre WhatsApp Web ou propose l'application.
+   Vérifiez que le compte WhatsApp du numéro configuré existe. Pour le panier, remplissez le formulaire,
+   puis le navigateur redirige directement vers le lien WhatsApp pour éviter les problèmes de pop-up.
